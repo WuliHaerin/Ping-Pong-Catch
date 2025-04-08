@@ -14,11 +14,11 @@ public class Ad : MonoBehaviour
     // Update is called once per frame
     public void ClickBtn()
     {
-        AdManager.ShowVideoAd("192if3b93qo6991ed0",
+        AdManager.ShowVideoAd("8bapdjk180c396e080",
             (bol) => {
                 if (bol)
                 {
-                    LifeMinus.instance.ResetLives(1);
+                    LifeMinus.instance.ResetLives(3);
                     ClosePanel();
 
                     AdManager.clickid = "";

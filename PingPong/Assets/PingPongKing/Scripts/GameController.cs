@@ -107,7 +107,7 @@ public class GameController : MonoBehaviour
 		highscore = PlayerPrefs.GetInt ("HighScore",0);
 		HighScoreText.text = "最高分:" + highscore.ToString ();
 
-		AdManager.ShowInterstitialAd("1lcaf5895d5l1293dc",
+		AdManager.ShowInterstitialAd("c9ish4c9p7m13r39wi",
 			() => {
 				Debug.LogError("--插屏广告完成--");
 

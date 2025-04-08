@@ -1,0 +1,16 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="Ad">
+			<method name="ClickBtn"/>
+			<method name="ClickNO"/>
+		</type>
+		<type fullname="CebianlanManager">
+			<method name="CancelPan"/>
+			<method name="OkPan"/>
+		</type>
+		<type fullname="LoadGame">
+			<method name="LeaveGame"/>
+			<method name="LoadMainGame"/>
+		</type>
+	</assembly>
+</linker>
